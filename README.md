@@ -54,7 +54,15 @@
 </ol>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/92697741-60f8-439d-9c74-1cc8fd16f916" alt="Domain Controller VM Screenshot" />
+ 
+  ![Screenshot (96)](https://github.com/user-attachments/assets/9f076a1f-53bf-4bbc-ad0b-7dbd9c46d6e2)
+
+  
+  ![Screenshot (97)](https://github.com/user-attachments/assets/a50ee453-c15e-47b9-9f78-e7ba027d10ae)
+
+
+  ![Screenshot (98)](https://github.com/user-attachments/assets/0e2c9be5-dcbc-4dd8-a683-a7b8214351ad)
+
 </p>
 
 <h3>2. Setting Up Client-1 in Azure</h3>
@@ -69,7 +77,9 @@
 </ol>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/830525e9-dfdd-4f3a-9793-740b4698779b" alt="Client-1 VM Screenshot" />
+  
+  ![image](https://github.com/user-attachments/assets/f1c21dab-ede3-46e3-937f-db0ab0c486ff)
+
 </p>
 
 <h3>3. Testing Connectivity</h3>
@@ -87,7 +97,9 @@
 </ol>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/492b953e-6841-4d60-a19d-b5cbeab62683" alt="PowerShell Output Screenshot" />
+
+  ![Screenshot (103)](https://github.com/user-attachments/assets/781a35dc-d52f-42c5-a78a-9033fbf4d92e)
+
 </p>
 
 ---
