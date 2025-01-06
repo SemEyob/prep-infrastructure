@@ -8,6 +8,8 @@
 
 <p>This home lab demonstrates how to set up a Domain Controller (DC) and a Client Virtual Machine (VM) in Microsoft Azure. It includes creating network resources, configuring <code>DC-1</code> with a static IP, disabling its firewall, and setting up <code>Client-1</code> to connect to <code>DC-1</code>. Connectivity is verified using <code>ping</code> and DNS tests.</p>
 
+
+
 ---
 
 <h2>Environments and Technologies Used</h2>
@@ -22,6 +24,16 @@
 <ul>
   <li>Windows Server 2022</li>
   <li>Windows 10 (21H2)</li>
+</ul>
+
+<h2>Key Takeaways: Deploying On-Premises Active Directory in Azure</h2>
+
+<ul>
+  <li><strong>Proficiency with Cloud Platforms:</strong> Demonstrated ability to deploy and configure Active Directory in Microsoft Azure, including network setup and VM management.</li>
+  <li><strong>DNS and Network Configuration:</strong> Successfully configured DNS settings and ensured seamless communication between domain controllers and clients.</li>
+  <li><strong>Windows Server Expertise:</strong> Deployed and managed a Windows Server 2022 domain controller, showcasing skills in server administration and Active Directory setup.</li>
+  <li><strong>Problem-Solving Skills:</strong> Verified connectivity and resolved potential issues using tools like PowerShell, <code>ping</code>, and <code>ipconfig</code>.</li>
+  <li><strong>Hands-On Experience:</strong> Gained practical experience in creating and managing virtual environments that simulate on-premises Active Directory infrastructure.</li>
 </ul>
 
 ---
@@ -80,11 +92,4 @@
 
 ---
 
-<h2>Key Takeaways: Deploying On-Premises Active Directory in Azure</h2>
-<ul>
-  <li><strong>Azure Resource Setup</strong>: Created a Resource Group, Virtual Network, and Subnet to host the infrastructure.</li>
-  <li><strong>Domain Controller Setup</strong>: Deployed a Windows Server 2022 VM (<code>DC-1</code>) as a Domain Controller in Azure.</li>
-  <li><strong>DNS Configuration</strong>: Configured <code>Client-1</code>’s DNS settings to point to the Domain Controller's static IP.</li>
-  <li><strong>Firewall and Connectivity Testing</strong>: Disabled Windows Firewall on the Domain Controller for initial testing and verified connectivity using <code>ping</code> and <code>ipconfig /all</code>.</li>
-  <li><strong>PowerShell Verification</strong>: Used PowerShell to confirm DNS resolution between the Domain Controller and Client VM.</li>
-</ul>
+
