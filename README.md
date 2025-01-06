@@ -4,7 +4,7 @@
   <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1 align="center">Deploying On-Premises Active Directory in the Cloud (Azure)</h1>
+<h1 align="center"> Preparing Active Directory Infrastructure in the Cloud (Azure)</h1>
 
 <p>This home lab demonstrates how to set up a Domain Controller (DC) and a Client Virtual Machine (VM) in Microsoft Azure. It includes creating network resources, configuring <code>DC-1</code> with a static IP, disabling its firewall, and setting up <code>Client-1</code> to connect to <code>DC-1</code>. Connectivity is verified using <code>ping</code> and DNS tests.</p>
 
